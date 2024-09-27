@@ -13,6 +13,9 @@ html {
     background-repeat: no-repeat; 
     background-attachment: fixed;
     min-height: 100%; 
+        /* quitar scrolls X e Y*/
+        overflow-x: hidden;
+        overflow-y: hidden;
 }
 
 header {
