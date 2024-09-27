@@ -1,0 +1,111 @@
+html, body {
+    height: 90%; 
+    margin: 0;
+}
+
+html {
+    background: linear-gradient(
+        180deg,
+        rgba(106, 36, 91, 1) 0%,
+        rgba(123, 67, 90, 1) 33.40026140213013%,
+        rgba(178, 176, 119, 1) 100%
+      );
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    min-height: 100%; 
+}
+
+header {
+    background-color: rgba(32, 32, 32, 0.212);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 1%;
+    display: flex;   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.hleft {
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.hright {
+   width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+header img {
+    width: 132px;
+
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+section {
+    background-color: rgba(41, 41, 41, 0.39);
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 1%;
+    height: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.articles {
+    background-color: rgba(41, 41, 41, 0.39);
+    color: black;
+    display: flex; 
+    justify-content: space-between; 
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px; 
+    width: 98%;
+    box-sizing: border-box;
+    height: 46%; 
+
+}
+.left, .right, .middle {
+    width: 48%; 
+    margin: 10px;
+}
+
+.left h2, .right h2, .middle h2 {
+    font-size: 30px;
+    color: white;
+}
+
+.left p, .right p, .middle p {
+    font-size: 20px;
+    color: white;
+}
+
+.left {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.right {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.middle{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+}
